@@ -4,7 +4,7 @@
 
 This repository contains solutions to the following Java problems:
 
-1. Simple Calculator using Class 
+1. Simple Calculator 
 2. Generate Odd Numbers Until `a` 
 3. Generate Series Based on Odd Indexing Logic 
 4. Count Multiples of 1 to 9 in a Given List 
@@ -14,7 +14,7 @@ This repository contains solutions to the following Java problems:
 ## Problem 1: Simple Calculator
 
 ###  Description:
-A basic calculator that performs operations like addition, subtraction, multiplication, and division using a class.
+A basic calculator that performs operations like addition, subtraction, multiplication and division using a class.
 
 ###  Input:
 - `a`: double  
@@ -26,8 +26,8 @@ Performs the operation and prints the result.
 
 ### ▶Run:
 ```bash
-javac Calculator.java
-java Calculator
+javac Program1.java
+java Program1
 ````
 
 ---
@@ -51,8 +51,8 @@ First `a` odd numbers
 ### Run:
 
 ```bash
-javac Problem2.java
-java Problem2
+javac Program2.java
+java Program2
 ```
 
 ---
@@ -78,8 +78,8 @@ If `a` is even, treat it as `a - 1`.
 ### Run:
 
 ```bash
-javac Problem3.java
-java Problem3
+javac Program3.java
+java Program3
 ```
 
 ---
@@ -105,8 +105,8 @@ int[] numbers = {1, 2, 8, 9, 12, 46, 76, 82, 15, 20, 30};
 ###  Run:
 
 ```bash
-javac Problem4.java
-java Problem4
+javac Program4.java
+java Program4
 ```
 
 ---
