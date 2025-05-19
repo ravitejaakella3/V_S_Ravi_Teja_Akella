@@ -1,3 +1,8 @@
+/*  
+Problem-1: Create a small calculator which performs operations such as Addition, Subtraction, Multiplication and Division using class.
+  Calculator inputs :> ‘a’, ‘b’ and ‘type of operation’
+  Datatype :> ‘a’ = double, ‘b’ = double, ‘type of operation’ = string */
+
 //This problem is solved in java
 import java.util.Scanner;
 
@@ -12,7 +17,7 @@ class Calculator {
         System.out.print("Enter value for b: ");
         double b = sc.nextDouble();
         
-        sc.nextLine(); // consume leftover newline
+        sc.nextLine(); 
         System.out.print("Enter operation (addition, subtraction, multiplication, division): ");
         String type_of_operation = sc.nextLine();
         
