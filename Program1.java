@@ -6,7 +6,7 @@ Problem-1: Create a small calculator which performs operations such as Addition,
 //This problem is solved in java
 import java.util.Scanner;
 
-class Calculator {
+class Program1 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,7 +21,7 @@ class Calculator {
         System.out.print("Enter operation (addition, subtraction, multiplication, division): ");
         String type_of_operation = sc.nextLine();
         
-        Calculator calc = new Calculator();
+        Program1 calc = new Program1(); 
         double result = calc.calculate(a, b, type_of_operation);
         
         if (!Double.isNaN(result)) {
@@ -50,5 +50,4 @@ class Calculator {
                 return Double.NaN;
         }
     }
-    
 }
