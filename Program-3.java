@@ -11,7 +11,7 @@ Problem-3: With a single integer as the input, generate the following until a = 
     .
     .
     7) input a = x, then output : 1, 3, 5, 7, ....... */
-//solve this  problem in java
+//this problem is solved in java
 import java.util.Scanner;
 
 public class Problem3 {
