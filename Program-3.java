@@ -14,13 +14,12 @@ Problem-3: With a single integer as the input, generate the following until a = 
 //solve this  problem in java
 import java.util.Scanner;
 
-public class Problem3_OddAdjusted {
+public class Problem3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter value of a: ");
         int a = sc.nextInt();
 
-        // If even, reduce to the previous odd number
         int count = (a % 2 == 0) ? a - 1 : a;
 
         int num = 1;
