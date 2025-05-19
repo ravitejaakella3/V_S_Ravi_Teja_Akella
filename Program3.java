@@ -14,7 +14,7 @@ Problem-3: With a single integer as the input, generate the following until a = 
 //this problem is solved in java
 import java.util.Scanner;
 
-public class Problem3 {
+public class Program3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter value of a: ");
